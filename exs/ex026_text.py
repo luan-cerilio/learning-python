@@ -1,0 +1,7 @@
+text = str(input('Digite um texto qualquer: '))
+qty = text.lower().count('a')
+first = text.lower().find('a')
+last = text.lower().rfind('a')
+print('A letra \'A\' aparece {} vezes'.format(qty))
+print('A letra \'A\' aparece pela primeira vez na posição {}'.format(first))
+print('A letra \'A\' aparece pela última vez na posição {}'.format(last))
